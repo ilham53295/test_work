@@ -29,3 +29,15 @@ Ran 5 tests in 0.001s
 
 OK
 ```
+## starcase
+Results
+```
+mac@Macs-MacBook-Pro-3 starcase % python3 -m unittest -v tests/test_starcase.py
+test_give_2_with_hash_should_be_hh (tests.test_starcase.TestStarcase) ... ok
+test_give_5_with_hash_should_be_hh (tests.test_starcase.TestStarcase) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK
+```
