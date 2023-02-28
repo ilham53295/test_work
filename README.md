@@ -41,3 +41,18 @@ Ran 2 tests in 0.000s
 
 OK
 ```
+## CatAndMouse
+Results
+```
+mac@Macs-MacBook-Pro-3 cat_and_mouse % python3 -m unittest -v tests/test_cat_and_mouse.py
+test_1_2_3_in_CatMouse (tests.test_cat_and_mouse.TestCatsMouse) ... ok
+test_1_2_4_in_CatMouse (tests.test_cat_and_mouse.TestCatsMouse) ... ok
+test_1_3_2_in_CatMouse (tests.test_cat_and_mouse.TestCatsMouse) ... ok
+test_3_3_3_in_CatMouse (tests.test_cat_and_mouse.TestCatsMouse) ... ok
+test_8_3_4_in_CatMouse (tests.test_cat_and_mouse.TestCatsMouse) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+```
