@@ -139,5 +139,5 @@ Name                          Stmts   Miss  Cover
 program/two_character.py         10      0   100%
 tests/test_two_character.py      28      0   100%
 -------------------------------------------------
-TOTAL 
+TOTAL                            38      0   100%
 ```
