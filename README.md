@@ -56,3 +56,24 @@ Ran 5 tests in 0.000s
 
 OK
 ```
+## Funny String
+Results
+```
+mac@Macs-MacBook-Pro-3 funny-string % python3 -m nose2 -v --with-coverage                       
+test_2_in_FunnyString (test_FunnyString.TestFunnyString) ... ok
+test_abcd_in_FunnyString (test_FunnyString.TestFunnyString) ... ok
+test_acxz_in_FunnyString (test_FunnyString.TestFunnyString) ... ok
+test_bvxz_in_FunnyString (test_FunnyString.TestFunnyString) ... ok
+test_nbvc_in_FunnyString (test_FunnyString.TestFunnyString) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+Name                        Stmts   Miss  Cover
+-----------------------------------------------
+program/FunnyString.py          9      0   100%
+tests/test_FunnyString.py      23      0   100%
+-----------------------------------------------
+TOTAL                          32      0   100%
+```
