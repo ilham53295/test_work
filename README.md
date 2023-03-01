@@ -120,3 +120,24 @@ tests/test_Caeser_Cipher.py      27      0   100%
 -------------------------------------------------
 TOTAL                            37      0   100%
 ```
+## Two Character
+Results
+```
+mac@Macs-MacBook-Pro-3 Two-Character % python3 -m nose2 -v --with-coverage
+test_give_ac_to_two_character (test_two_character.TestTwoCharacter) ... ok
+test_give_asgxcugdsugcewuigcvkejwvcyewbcekwjcgv_to_two_character (test_two_character.TestTwoCharacter) ... ok
+test_give_Hello_World_two_character (test_two_character.TestTwoCharacter) ... ok
+test_give_ILoveYou_to_Two_Character (test_two_character.TestTwoCharacter) ... ok
+test_give_zxcvbnmlkhgfd_to_two_character (test_two_character.TestTwoCharacter) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+Name                          Stmts   Miss  Cover
+-------------------------------------------------
+program/two_character.py         10      0   100%
+tests/test_two_character.py      28      0   100%
+-------------------------------------------------
+TOTAL 
+```
