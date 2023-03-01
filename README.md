@@ -141,3 +141,25 @@ tests/test_two_character.py      28      0   100%
 -------------------------------------------------
 TOTAL                            38      0   100%
 ```
+## Grid Challenge
+Results
+```
+mac@Macs-MacBook-Pro-3 Grid-Challenge % python3 -m nose2 -v --with-coverage
+None
+test_give_exampleList_1_to_grid (test_grid_challenge.TestGridChallenge) ... ok
+test_give_exampleList_2_to_grid (test_grid_challenge.TestGridChallenge) ... ok
+test_give_exampleList_3_to_grid (test_grid_challenge.TestGridChallenge) ... ok
+test_give_exampleList_4_to_grid (test_grid_challenge.TestGridChallenge) ... ok
+test_give_exampleList_5_to_grid (test_grid_challenge.TestGridChallenge) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+Name                           Stmts   Miss  Cover
+--------------------------------------------------
+program/grid_challenge.py          7      0   100%
+tests/test_grid_challenge.py      28      0   100%
+--------------------------------------------------
+TOTAL                             35      0   100%
+```
